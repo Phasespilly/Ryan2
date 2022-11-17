@@ -1,0 +1,25 @@
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.FB{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.FB iframe{
+    margin: 30px;
+}
+
+.join-us{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}

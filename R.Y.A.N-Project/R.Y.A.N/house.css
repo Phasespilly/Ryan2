@@ -1,0 +1,118 @@
+.page-content-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top p{
+    max-width: 75%;
+    font-size: xx-large;
+}
+
+.mid{
+    display: flex;
+}
+
+.mid p{
+    font-size: x-large;
+}
+
+
+.left-info{
+    margin: 5%;
+    flex-basis: 33%;
+}
+
+.houseimg{
+    margin-top: 5%;
+    vertical-align: middle;
+}
+
+.houseimg img{
+    border-radius: 2rem;
+}
+
+.right-info{
+    margin: 5%;
+    flex-basis: 33%;
+}
+
+.bottom-1{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.bottom-1 p{
+    font-size: larger;
+    width: 75%;
+}
+
+.bottom-1 .bottom-1-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-basis: 33%;
+}
+
+.phones{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.botton-note{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-weight: bold;
+    font-size: large;
+}
+
+.phases{
+    margin-top: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.phase{
+    flex-basis: 33%;
+}
+
+.dono-form{
+    display: flex;
+    justify-content: center;
+}
+
+.dono-form button{
+    padding: 50px;
+    border-color: black;
+    background-color: #0202a2;
+    border-radius: 1rem;
+    color: white;
+    font-size: larger;  
+    margin: 100px;  
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.ending-note p{
+    font-size: x-large;
+
+}

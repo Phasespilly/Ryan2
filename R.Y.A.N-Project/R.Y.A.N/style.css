@@ -1,0 +1,86 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.Nav-Bar{
+    top: 10px;
+    margin-top: 10px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0202a2;
+    color: black;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.brand{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: .5rem;
+    width: 100%;
+}
+
+.nav-bar-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.nav-bar-links ul{
+    margin: 0%;
+    font-weight: 0;
+    margin: flex;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.nav-bar-links li{
+    list-style: none;
+}
+
+.nav-bar-links li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    display: block;
+}
+
+.links :hover{
+    background-color: #ff0000;
+    border-radius: 2rem;
+}
+
+.dono-button{
+    background-color: #ff0000;
+    border-radius: 1rem;
+    right: 0;
+}
+
+footer{
+    background-color: #0202a2;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 2rem;
+    color: white;
+    width: 150%;
+}
+
+footer p{
+    font-weight: lighter;
+    font-size: large;
+}
